@@ -1,0 +1,1433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="7/26/2017 6:39:14 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:39:14 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\clinical statement management\viewobservation\fluidsmanagementui\service references\terminology\reference.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\clinical statement management\viewobservation\fluidbalance\fluidbalance\service references\terminology\reference.cs</filename2>
+		<linecomp status="different">
+			<text ltid="14">namespace FluidsManagementUI.Terminology {</text>
+			<text rtid="14">namespace FluidBalance.Terminology {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="29">        System.IAsyncResult BeginGetAllValueDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="29">        System.IAsyncResult BeginGetAllValueDomains(FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="31">        FluidsManagementUI.Terminology.CResMsgGetAllValueDomains EndGetAllValueDomains(System.IAsyncResult result);</text>
+			<text rtid="31">        FluidBalance.Terminology.CResMsgGetAllValueDomains EndGetAllValueDomains(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="41">        System.IAsyncResult BeginGetValueDomainByDomainCode(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="41">        System.IAsyncResult BeginGetValueDomainByDomainCode(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="43">        FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode EndGetValueDomainByDomainCode(System.IAsyncResult result);</text>
+			<text rtid="43">        FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode EndGetValueDomainByDomainCode(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="53">        System.IAsyncResult BeginGetAllReferenceCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="53">        System.IAsyncResult BeginGetAllReferenceCodesByDomain(FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="55">        FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain EndGetAllReferenceCodesByDomain(System.IAsyncResult result);</text>
+			<text rtid="55">        FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain EndGetAllReferenceCodesByDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="65">        System.IAsyncResult BeginGetLinkedValueSetsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="65">        System.IAsyncResult BeginGetLinkedValueSetsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="67">        FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain EndGetLinkedValueSetsForDomain(System.IAsyncResult result);</text>
+			<text rtid="67">        FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain EndGetLinkedValueSetsForDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="77">        System.IAsyncResult BeginGetConceptDescriptionByID(FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="77">        System.IAsyncResult BeginGetConceptDescriptionByID(FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="79">        FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID EndGetConceptDescriptionByID(System.IAsyncResult result);</text>
+			<text rtid="79">        FluidBalance.Terminology.CResMsgGetConceptDescriptionByID EndGetConceptDescriptionByID(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="89">        System.IAsyncResult BeginGetRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="89">        System.IAsyncResult BeginGetRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="91">        FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain EndGetRefCodesByDomain(System.IAsyncResult result);</text>
+			<text rtid="91">        FluidBalance.Terminology.CResMsgGetRefCodesByDomain EndGetRefCodesByDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="101">        System.IAsyncResult BeginGetDefRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="101">        System.IAsyncResult BeginGetDefRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="103">        FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain EndGetDefRefCodesByDomain(System.IAsyncResult result);</text>
+			<text rtid="103">        FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain EndGetDefRefCodesByDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="113">        System.IAsyncResult BeginGetAllConceptCodesByPropDomain(FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="113">        System.IAsyncResult BeginGetAllConceptCodesByPropDomain(FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="115">        FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain EndGetAllConceptCodesByPropDomain(System.IAsyncResult result);</text>
+			<text rtid="115">        FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain EndGetAllConceptCodesByPropDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="125">        System.IAsyncResult BeginGetAllReferenceCodes(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="125">        System.IAsyncResult BeginGetAllReferenceCodes(FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="127">        FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes EndGetAllReferenceCodes(System.IAsyncResult result);</text>
+			<text rtid="127">        FluidBalance.Terminology.CResMsgGetAllReferenceCodes EndGetAllReferenceCodes(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="137">        System.IAsyncResult BeginGetLinkedDomainsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="137">        System.IAsyncResult BeginGetLinkedDomainsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="139">        FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain EndGetLinkedDomainsForDomain(System.IAsyncResult result);</text>
+			<text rtid="139">        FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain EndGetLinkedDomainsForDomain(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="149">        System.IAsyncResult BeginGetValueDomainByDomainCodeRC(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="149">        System.IAsyncResult BeginGetValueDomainByDomainCodeRC(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="151">        FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC EndGetValueDomainByDomainCodeRC(System.IAsyncResult result);</text>
+			<text rtid="151">        FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC EndGetValueDomainByDomainCodeRC(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="161">        System.IAsyncResult BeginGetReferenceRelationDetails(FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="161">        System.IAsyncResult BeginGetReferenceRelationDetails(FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="163">        FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails EndGetReferenceRelationDetails(System.IAsyncResult result);</text>
+			<text rtid="163">        FluidBalance.Terminology.CResMsgGetReferenceRelationDetails EndGetReferenceRelationDetails(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="173">        System.IAsyncResult BeginGetValueDomainBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="173">        System.IAsyncResult BeginGetValueDomainBySFS(FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="175">        FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS EndGetValueDomainBySFS(System.IAsyncResult result);</text>
+			<text rtid="175">        FluidBalance.Terminology.CResMsgGetValueDomainBySFS EndGetValueDomainBySFS(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="185">        System.IAsyncResult BeginGetValueSetBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="185">        System.IAsyncResult BeginGetValueSetBySFS(FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="187">        FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS EndGetValueSetBySFS(System.IAsyncResult result);</text>
+			<text rtid="187">        FluidBalance.Terminology.CResMsgGetValueSetBySFS EndGetValueSetBySFS(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="197">        System.IAsyncResult BeginGetAllHealthOrganisations(FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="197">        System.IAsyncResult BeginGetAllHealthOrganisations(FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="199">        FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations EndGetAllHealthOrganisations(System.IAsyncResult result);</text>
+			<text rtid="199">        FluidBalance.Terminology.CResMsgGetAllHealthOrganisations EndGetAllHealthOrganisations(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="209">        System.IAsyncResult BeginGetLinkedValueSetsForDomainRC(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="209">        System.IAsyncResult BeginGetLinkedValueSetsForDomainRC(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="211">        FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result);</text>
+			<text rtid="211">        FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="221">        System.IAsyncResult BeginGetValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="221">        System.IAsyncResult BeginGetValuesByDomains(FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="223">        FluidsManagementUI.Terminology.CResMsgGetValuesByDomains EndGetValuesByDomains(System.IAsyncResult result);</text>
+			<text rtid="223">        FluidBalance.Terminology.CResMsgGetValuesByDomains EndGetValuesByDomains(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="233">        System.IAsyncResult BeginGetHierarchicalValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="233">        System.IAsyncResult BeginGetHierarchicalValuesByDomains(FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="235">        FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains EndGetHierarchicalValuesByDomains(System.IAsyncResult result);</text>
+			<text rtid="235">        FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains EndGetHierarchicalValuesByDomains(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="245">        System.IAsyncResult BeginGetAllValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="245">        System.IAsyncResult BeginGetAllValuesByDomains(FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="247">        FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains EndGetAllValuesByDomains(System.IAsyncResult result);</text>
+			<text rtid="247">        FluidBalance.Terminology.CResMsgGetAllValuesByDomains EndGetAllValuesByDomains(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="257">        System.IAsyncResult BeginGetLinkedValues(FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="257">        System.IAsyncResult BeginGetLinkedValues(FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="259">        FluidsManagementUI.Terminology.CResMsgGetLinkedValues EndGetLinkedValues(System.IAsyncResult result);</text>
+			<text rtid="259">        FluidBalance.Terminology.CResMsgGetLinkedValues EndGetLinkedValues(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="269">        System.IAsyncResult BeginGetValueSetByCriteria(FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="269">        System.IAsyncResult BeginGetValueSetByCriteria(FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="271">        FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria EndGetValueSetByCriteria(System.IAsyncResult result);</text>
+			<text rtid="271">        FluidBalance.Terminology.CResMsgGetValueSetByCriteria EndGetValueSetByCriteria(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="281">        System.IAsyncResult BeginGetAssociatedDataFilters(FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="281">        System.IAsyncResult BeginGetAssociatedDataFilters(FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="283">        FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters EndGetAssociatedDataFilters(System.IAsyncResult result);</text>
+			<text rtid="283">        FluidBalance.Terminology.CResMsgGetAssociatedDataFilters EndGetAssociatedDataFilters(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="293">        System.IAsyncResult BeginIsExistsDataFilter(FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="293">        System.IAsyncResult BeginIsExistsDataFilter(FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="295">        FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter EndIsExistsDataFilter(System.IAsyncResult result);</text>
+			<text rtid="295">        FluidBalance.Terminology.CResMsgIsExistsDataFilter EndIsExistsDataFilter(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="305">        System.IAsyncResult BeginIsExistsVersionedValueSet(FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="305">        System.IAsyncResult BeginIsExistsVersionedValueSet(FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="307">        FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet EndIsExistsVersionedValueSet(System.IAsyncResult result);</text>
+			<text rtid="307">        FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet EndIsExistsVersionedValueSet(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="317">        System.IAsyncResult BeginGetValuesByText(FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState);</text>
+			<text rtid="317">        System.IAsyncResult BeginGetValuesByText(FluidBalance.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="319">        FluidsManagementUI.Terminology.CResMsgGetValuesByText EndGetValuesByText(System.IAsyncResult result);</text>
+			<text rtid="319">        FluidBalance.Terminology.CResMsgGetValuesByText EndGetValuesByText(System.IAsyncResult result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6862">    public interface CReferenceWSWSSoapChannel : FluidsManagementUI.Terminology.CReferenceWSWSSoap, System.ServiceModel.IClientChannel {</text>
+			<text rtid="6862">    public interface CReferenceWSWSSoapChannel : FluidBalance.Terminology.CReferenceWSWSSoap, System.ServiceModel.IClientChannel {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6876">        public FluidsManagementUI.Terminology.CResMsgGetAllValueDomains Result {</text>
+			<text rtid="6876">        public FluidBalance.Terminology.CResMsgGetAllValueDomains Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6879">                return ((FluidsManagementUI.Terminology.CResMsgGetAllValueDomains)(this.results[0]));</text>
+			<text rtid="6879">                return ((FluidBalance.Terminology.CResMsgGetAllValueDomains)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6895">        public FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode Result {</text>
+			<text rtid="6895">        public FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6898">                return ((FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode)(this.results[0]));</text>
+			<text rtid="6898">                return ((FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6914">        public FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain Result {</text>
+			<text rtid="6914">        public FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6917">                return ((FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain)(this.results[0]));</text>
+			<text rtid="6917">                return ((FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6933">        public FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain Result {</text>
+			<text rtid="6933">        public FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6936">                return ((FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain)(this.results[0]));</text>
+			<text rtid="6936">                return ((FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6952">        public FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID Result {</text>
+			<text rtid="6952">        public FluidBalance.Terminology.CResMsgGetConceptDescriptionByID Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6955">                return ((FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID)(this.results[0]));</text>
+			<text rtid="6955">                return ((FluidBalance.Terminology.CResMsgGetConceptDescriptionByID)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6971">        public FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain Result {</text>
+			<text rtid="6971">        public FluidBalance.Terminology.CResMsgGetRefCodesByDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6974">                return ((FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain)(this.results[0]));</text>
+			<text rtid="6974">                return ((FluidBalance.Terminology.CResMsgGetRefCodesByDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6990">        public FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain Result {</text>
+			<text rtid="6990">        public FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6993">                return ((FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain)(this.results[0]));</text>
+			<text rtid="6993">                return ((FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7009">        public FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain Result {</text>
+			<text rtid="7009">        public FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7012">                return ((FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain)(this.results[0]));</text>
+			<text rtid="7012">                return ((FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7028">        public FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes Result {</text>
+			<text rtid="7028">        public FluidBalance.Terminology.CResMsgGetAllReferenceCodes Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7031">                return ((FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes)(this.results[0]));</text>
+			<text rtid="7031">                return ((FluidBalance.Terminology.CResMsgGetAllReferenceCodes)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7047">        public FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain Result {</text>
+			<text rtid="7047">        public FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7050">                return ((FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain)(this.results[0]));</text>
+			<text rtid="7050">                return ((FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7066">        public FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC Result {</text>
+			<text rtid="7066">        public FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7069">                return ((FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC)(this.results[0]));</text>
+			<text rtid="7069">                return ((FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7085">        public FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails Result {</text>
+			<text rtid="7085">        public FluidBalance.Terminology.CResMsgGetReferenceRelationDetails Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7088">                return ((FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails)(this.results[0]));</text>
+			<text rtid="7088">                return ((FluidBalance.Terminology.CResMsgGetReferenceRelationDetails)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7104">        public FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS Result {</text>
+			<text rtid="7104">        public FluidBalance.Terminology.CResMsgGetValueDomainBySFS Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7107">                return ((FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS)(this.results[0]));</text>
+			<text rtid="7107">                return ((FluidBalance.Terminology.CResMsgGetValueDomainBySFS)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7123">        public FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS Result {</text>
+			<text rtid="7123">        public FluidBalance.Terminology.CResMsgGetValueSetBySFS Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7126">                return ((FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS)(this.results[0]));</text>
+			<text rtid="7126">                return ((FluidBalance.Terminology.CResMsgGetValueSetBySFS)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7142">        public FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations Result {</text>
+			<text rtid="7142">        public FluidBalance.Terminology.CResMsgGetAllHealthOrganisations Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7145">                return ((FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations)(this.results[0]));</text>
+			<text rtid="7145">                return ((FluidBalance.Terminology.CResMsgGetAllHealthOrganisations)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7161">        public FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC Result {</text>
+			<text rtid="7161">        public FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7164">                return ((FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC)(this.results[0]));</text>
+			<text rtid="7164">                return ((FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7180">        public FluidsManagementUI.Terminology.CResMsgGetValuesByDomains Result {</text>
+			<text rtid="7180">        public FluidBalance.Terminology.CResMsgGetValuesByDomains Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7183">                return ((FluidsManagementUI.Terminology.CResMsgGetValuesByDomains)(this.results[0]));</text>
+			<text rtid="7183">                return ((FluidBalance.Terminology.CResMsgGetValuesByDomains)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7199">        public FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains Result {</text>
+			<text rtid="7199">        public FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7202">                return ((FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains)(this.results[0]));</text>
+			<text rtid="7202">                return ((FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7218">        public FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains Result {</text>
+			<text rtid="7218">        public FluidBalance.Terminology.CResMsgGetAllValuesByDomains Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7221">                return ((FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains)(this.results[0]));</text>
+			<text rtid="7221">                return ((FluidBalance.Terminology.CResMsgGetAllValuesByDomains)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7237">        public FluidsManagementUI.Terminology.CResMsgGetLinkedValues Result {</text>
+			<text rtid="7237">        public FluidBalance.Terminology.CResMsgGetLinkedValues Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7240">                return ((FluidsManagementUI.Terminology.CResMsgGetLinkedValues)(this.results[0]));</text>
+			<text rtid="7240">                return ((FluidBalance.Terminology.CResMsgGetLinkedValues)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7256">        public FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria Result {</text>
+			<text rtid="7256">        public FluidBalance.Terminology.CResMsgGetValueSetByCriteria Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7259">                return ((FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria)(this.results[0]));</text>
+			<text rtid="7259">                return ((FluidBalance.Terminology.CResMsgGetValueSetByCriteria)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7275">        public FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters Result {</text>
+			<text rtid="7275">        public FluidBalance.Terminology.CResMsgGetAssociatedDataFilters Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7278">                return ((FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters)(this.results[0]));</text>
+			<text rtid="7278">                return ((FluidBalance.Terminology.CResMsgGetAssociatedDataFilters)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7294">        public FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter Result {</text>
+			<text rtid="7294">        public FluidBalance.Terminology.CResMsgIsExistsDataFilter Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7297">                return ((FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter)(this.results[0]));</text>
+			<text rtid="7297">                return ((FluidBalance.Terminology.CResMsgIsExistsDataFilter)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7313">        public FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet Result {</text>
+			<text rtid="7313">        public FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7316">                return ((FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet)(this.results[0]));</text>
+			<text rtid="7316">                return ((FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7332">        public FluidsManagementUI.Terminology.CResMsgGetValuesByText Result {</text>
+			<text rtid="7332">        public FluidBalance.Terminology.CResMsgGetValuesByText Result {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7335">                return ((FluidsManagementUI.Terminology.CResMsgGetValuesByText)(this.results[0]));</text>
+			<text rtid="7335">                return ((FluidBalance.Terminology.CResMsgGetValuesByText)(this.results[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7342">    public partial class CReferenceWSWSSoapClient : System.ServiceModel.ClientBase&lt;FluidsManagementUI.Terminology.CReferenceWSWSSoap>, FluidsManagementUI.Terminology.CReferenceWSWSSoap {</text>
+			<text rtid="7342">    public partial class CReferenceWSWSSoapClient : System.ServiceModel.ClientBase&lt;FluidBalance.Terminology.CReferenceWSWSSoap>, FluidBalance.Terminology.CReferenceWSWSSoap {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7602">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllValueDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7602">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllValueDomains(FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7607">        FluidsManagementUI.Terminology.CResMsgGetAllValueDomains FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllValueDomains(System.IAsyncResult result) {</text>
+			<text rtid="7607">        FluidBalance.Terminology.CResMsgGetAllValueDomains FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllValueDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7612">            FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme = ((FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains)(inValues[0]));</text>
+			<text rtid="7612">            FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme = ((FluidBalance.Terminology.CReqMsgGetAllValueDomains)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7613">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllValueDomains(objScheme, callback, asyncState);</text>
+			<text rtid="7613">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllValueDomains(objScheme, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7617">            FluidsManagementUI.Terminology.CResMsgGetAllValueDomains retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllValueDomains(result);</text>
+			<text rtid="7617">            FluidBalance.Terminology.CResMsgGetAllValueDomains retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllValueDomains(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7629">        public void GetAllValueDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme) {</text>
+			<text rtid="7629">        public void GetAllValueDomainsAsync(FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7633">        public void GetAllValueDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme, object userState) {</text>
+			<text rtid="7633">        public void GetAllValueDomainsAsync(FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7648">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValueDomainByDomainCode(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7648">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValueDomainByDomainCode(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7653">        FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValueDomainByDomainCode(System.IAsyncResult result) {</text>
+			<text rtid="7653">        FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValueDomainByDomainCode(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7658">            FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue = ((FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode)(inValues[0]));</text>
+			<text rtid="7658">            FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue = ((FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7659">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainByDomainCode(objValue, callback, asyncState);</text>
+			<text rtid="7659">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainByDomainCode(objValue, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7663">            FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainByDomainCode(result);</text>
+			<text rtid="7663">            FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainByDomainCode(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7675">        public void GetValueDomainByDomainCodeAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue) {</text>
+			<text rtid="7675">        public void GetValueDomainByDomainCodeAsync(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7679">        public void GetValueDomainByDomainCodeAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue, object userState) {</text>
+			<text rtid="7679">        public void GetValueDomainByDomainCodeAsync(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7694">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllReferenceCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7694">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllReferenceCodesByDomain(FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7699">        FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllReferenceCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="7699">        FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllReferenceCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7704">            FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue = ((FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain)(inValues[0]));</text>
+			<text rtid="7704">            FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue = ((FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7705">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllReferenceCodesByDomain(objValue, callback, asyncState);</text>
+			<text rtid="7705">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllReferenceCodesByDomain(objValue, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7709">            FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllReferenceCodesByDomain(result);</text>
+			<text rtid="7709">            FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllReferenceCodesByDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7721">        public void GetAllReferenceCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue) {</text>
+			<text rtid="7721">        public void GetAllReferenceCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7725">        public void GetAllReferenceCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, object userState) {</text>
+			<text rtid="7725">        public void GetAllReferenceCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7740">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetLinkedValueSetsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7740">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetLinkedValueSetsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7745">        FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetLinkedValueSetsForDomain(System.IAsyncResult result) {</text>
+			<text rtid="7745">        FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetLinkedValueSetsForDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7750">            FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping = ((FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain)(inValues[0]));</text>
+			<text rtid="7750">            FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping = ((FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7751">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValueSetsForDomain(objValueSetMapping, callback, asyncState);</text>
+			<text rtid="7751">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValueSetsForDomain(objValueSetMapping, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7755">            FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValueSetsForDomain(result);</text>
+			<text rtid="7755">            FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValueSetsForDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7767">        public void GetLinkedValueSetsForDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping) {</text>
+			<text rtid="7767">        public void GetLinkedValueSetsForDomainAsync(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7771">        public void GetLinkedValueSetsForDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, object userState) {</text>
+			<text rtid="7771">        public void GetLinkedValueSetsForDomainAsync(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7786">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetConceptDescriptionByID(FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7786">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetConceptDescriptionByID(FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7791">        FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetConceptDescriptionByID(System.IAsyncResult result) {</text>
+			<text rtid="7791">        FluidBalance.Terminology.CResMsgGetConceptDescriptionByID FluidBalance.Terminology.CReferenceWSWSSoap.EndGetConceptDescriptionByID(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7796">            FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept = ((FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID)(inValues[0]));</text>
+			<text rtid="7796">            FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept = ((FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7797">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetConceptDescriptionByID(objConcept, callback, asyncState);</text>
+			<text rtid="7797">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetConceptDescriptionByID(objConcept, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7801">            FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetConceptDescriptionByID(result);</text>
+			<text rtid="7801">            FluidBalance.Terminology.CResMsgGetConceptDescriptionByID retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetConceptDescriptionByID(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7813">        public void GetConceptDescriptionByIDAsync(FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept) {</text>
+			<text rtid="7813">        public void GetConceptDescriptionByIDAsync(FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7817">        public void GetConceptDescriptionByIDAsync(FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept, object userState) {</text>
+			<text rtid="7817">        public void GetConceptDescriptionByIDAsync(FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7832">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7832">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7837">        FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetRefCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="7837">        FluidBalance.Terminology.CResMsgGetRefCodesByDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetRefCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7842">            FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue = ((FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain)(inValues[0]));</text>
+			<text rtid="7842">            FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue = ((FluidBalance.Terminology.CReqMsgGetRefCodesByDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7843">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetRefCodesByDomain(objValue, callback, asyncState);</text>
+			<text rtid="7843">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetRefCodesByDomain(objValue, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7847">            FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetRefCodesByDomain(result);</text>
+			<text rtid="7847">            FluidBalance.Terminology.CResMsgGetRefCodesByDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetRefCodesByDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7859">        public void GetRefCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue) {</text>
+			<text rtid="7859">        public void GetRefCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7863">        public void GetRefCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue, object userState) {</text>
+			<text rtid="7863">        public void GetRefCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7878">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetDefRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7878">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetDefRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7883">        FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetDefRefCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="7883">        FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetDefRefCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7888">            FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue = ((FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain)(inValues[0]));</text>
+			<text rtid="7888">            FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue = ((FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7889">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetDefRefCodesByDomain(objValue, callback, asyncState);</text>
+			<text rtid="7889">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetDefRefCodesByDomain(objValue, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7893">            FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetDefRefCodesByDomain(result);</text>
+			<text rtid="7893">            FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetDefRefCodesByDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7905">        public void GetDefRefCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue) {</text>
+			<text rtid="7905">        public void GetDefRefCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7909">        public void GetDefRefCodesByDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue, object userState) {</text>
+			<text rtid="7909">        public void GetDefRefCodesByDomainAsync(FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7924">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllConceptCodesByPropDomain(FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7924">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllConceptCodesByPropDomain(FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7929">        FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllConceptCodesByPropDomain(System.IAsyncResult result) {</text>
+			<text rtid="7929">        FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllConceptCodesByPropDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7934">            FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty = ((FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain)(inValues[0]));</text>
+			<text rtid="7934">            FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty = ((FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7935">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllConceptCodesByPropDomain(objConProperty, callback, asyncState);</text>
+			<text rtid="7935">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllConceptCodesByPropDomain(objConProperty, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7939">            FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllConceptCodesByPropDomain(result);</text>
+			<text rtid="7939">            FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllConceptCodesByPropDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7951">        public void GetAllConceptCodesByPropDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty) {</text>
+			<text rtid="7951">        public void GetAllConceptCodesByPropDomainAsync(FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7955">        public void GetAllConceptCodesByPropDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, object userState) {</text>
+			<text rtid="7955">        public void GetAllConceptCodesByPropDomainAsync(FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7970">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllReferenceCodes(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="7970">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllReferenceCodes(FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7975">        FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllReferenceCodes(System.IAsyncResult result) {</text>
+			<text rtid="7975">        FluidBalance.Terminology.CResMsgGetAllReferenceCodes FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllReferenceCodes(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7980">            FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue = ((FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes)(inValues[0]));</text>
+			<text rtid="7980">            FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue = ((FluidBalance.Terminology.CReqMsgGetAllReferenceCodes)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7981">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllReferenceCodes(objDomainValue, callback, asyncState);</text>
+			<text rtid="7981">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllReferenceCodes(objDomainValue, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7985">            FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllReferenceCodes(result);</text>
+			<text rtid="7985">            FluidBalance.Terminology.CResMsgGetAllReferenceCodes retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllReferenceCodes(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7997">        public void GetAllReferenceCodesAsync(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue) {</text>
+			<text rtid="7997">        public void GetAllReferenceCodesAsync(FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8001">        public void GetAllReferenceCodesAsync(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, object userState) {</text>
+			<text rtid="8001">        public void GetAllReferenceCodesAsync(FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8016">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetLinkedDomainsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8016">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetLinkedDomainsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8021">        FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetLinkedDomainsForDomain(System.IAsyncResult result) {</text>
+			<text rtid="8021">        FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain FluidBalance.Terminology.CReferenceWSWSSoap.EndGetLinkedDomainsForDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8026">            FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping = ((FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain)(inValues[0]));</text>
+			<text rtid="8026">            FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping = ((FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8027">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedDomainsForDomain(objValueSetMapping, callback, asyncState);</text>
+			<text rtid="8027">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedDomainsForDomain(objValueSetMapping, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8031">            FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedDomainsForDomain(result);</text>
+			<text rtid="8031">            FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedDomainsForDomain(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8043">        public void GetLinkedDomainsForDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping) {</text>
+			<text rtid="8043">        public void GetLinkedDomainsForDomainAsync(FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8047">        public void GetLinkedDomainsForDomainAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, object userState) {</text>
+			<text rtid="8047">        public void GetLinkedDomainsForDomainAsync(FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8062">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValueDomainByDomainCodeRC(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8062">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValueDomainByDomainCodeRC(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8067">        FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValueDomainByDomainCodeRC(System.IAsyncResult result) {</text>
+			<text rtid="8067">        FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValueDomainByDomainCodeRC(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8072">            FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain = ((FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC)(inValues[0]));</text>
+			<text rtid="8072">            FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain = ((FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8073">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainByDomainCodeRC(objDomain, callback, asyncState);</text>
+			<text rtid="8073">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainByDomainCodeRC(objDomain, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8077">            FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainByDomainCodeRC(result);</text>
+			<text rtid="8077">            FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainByDomainCodeRC(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8089">        public void GetValueDomainByDomainCodeRCAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain) {</text>
+			<text rtid="8089">        public void GetValueDomainByDomainCodeRCAsync(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8093">        public void GetValueDomainByDomainCodeRCAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, object userState) {</text>
+			<text rtid="8093">        public void GetValueDomainByDomainCodeRCAsync(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8108">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetReferenceRelationDetails(FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8108">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetReferenceRelationDetails(FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8113">        FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetReferenceRelationDetails(System.IAsyncResult result) {</text>
+			<text rtid="8113">        FluidBalance.Terminology.CResMsgGetReferenceRelationDetails FluidBalance.Terminology.CReferenceWSWSSoap.EndGetReferenceRelationDetails(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8118">            FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping = ((FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails)(inValues[0]));</text>
+			<text rtid="8118">            FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping = ((FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8119">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetReferenceRelationDetails(objMapping, callback, asyncState);</text>
+			<text rtid="8119">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetReferenceRelationDetails(objMapping, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8123">            FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetReferenceRelationDetails(result);</text>
+			<text rtid="8123">            FluidBalance.Terminology.CResMsgGetReferenceRelationDetails retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetReferenceRelationDetails(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8135">        public void GetReferenceRelationDetailsAsync(FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping) {</text>
+			<text rtid="8135">        public void GetReferenceRelationDetailsAsync(FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8139">        public void GetReferenceRelationDetailsAsync(FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping, object userState) {</text>
+			<text rtid="8139">        public void GetReferenceRelationDetailsAsync(FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8154">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValueDomainBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8154">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValueDomainBySFS(FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8159">        FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValueDomainBySFS(System.IAsyncResult result) {</text>
+			<text rtid="8159">        FluidBalance.Terminology.CResMsgGetValueDomainBySFS FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValueDomainBySFS(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8164">            FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex = ((FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS)(inValues[0]));</text>
+			<text rtid="8164">            FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex = ((FluidBalance.Terminology.CReqMsgGetValueDomainBySFS)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8165">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainBySFS(nPageIndex, callback, asyncState);</text>
+			<text rtid="8165">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueDomainBySFS(nPageIndex, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8169">            FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainBySFS(result);</text>
+			<text rtid="8169">            FluidBalance.Terminology.CResMsgGetValueDomainBySFS retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValueDomainBySFS(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8181">        public void GetValueDomainBySFSAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex) {</text>
+			<text rtid="8181">        public void GetValueDomainBySFSAsync(FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8185">        public void GetValueDomainBySFSAsync(FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, object userState) {</text>
+			<text rtid="8185">        public void GetValueDomainBySFSAsync(FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8200">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValueSetBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8200">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValueSetBySFS(FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8205">        FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValueSetBySFS(System.IAsyncResult result) {</text>
+			<text rtid="8205">        FluidBalance.Terminology.CResMsgGetValueSetBySFS FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValueSetBySFS(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8210">            FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch = ((FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS)(inValues[0]));</text>
+			<text rtid="8210">            FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch = ((FluidBalance.Terminology.CReqMsgGetValueSetBySFS)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8211">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueSetBySFS(objValueSetSearch, callback, asyncState);</text>
+			<text rtid="8211">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueSetBySFS(objValueSetSearch, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8215">            FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValueSetBySFS(result);</text>
+			<text rtid="8215">            FluidBalance.Terminology.CResMsgGetValueSetBySFS retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValueSetBySFS(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8227">        public void GetValueSetBySFSAsync(FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch) {</text>
+			<text rtid="8227">        public void GetValueSetBySFSAsync(FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8231">        public void GetValueSetBySFSAsync(FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, object userState) {</text>
+			<text rtid="8231">        public void GetValueSetBySFSAsync(FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8246">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllHealthOrganisations(FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8246">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllHealthOrganisations(FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8251">        FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllHealthOrganisations(System.IAsyncResult result) {</text>
+			<text rtid="8251">        FluidBalance.Terminology.CResMsgGetAllHealthOrganisations FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllHealthOrganisations(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8256">            FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn = ((FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations)(inValues[0]));</text>
+			<text rtid="8256">            FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn = ((FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8257">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllHealthOrganisations(objHealthOrgn, callback, asyncState);</text>
+			<text rtid="8257">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllHealthOrganisations(objHealthOrgn, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8261">            FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllHealthOrganisations(result);</text>
+			<text rtid="8261">            FluidBalance.Terminology.CResMsgGetAllHealthOrganisations retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllHealthOrganisations(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8273">        public void GetAllHealthOrganisationsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn) {</text>
+			<text rtid="8273">        public void GetAllHealthOrganisationsAsync(FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8277">        public void GetAllHealthOrganisationsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, object userState) {</text>
+			<text rtid="8277">        public void GetAllHealthOrganisationsAsync(FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8292">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetLinkedValueSetsForDomainRC(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8292">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetLinkedValueSetsForDomainRC(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8297">        FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result) {</text>
+			<text rtid="8297">        FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC FluidBalance.Terminology.CReferenceWSWSSoap.EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8302">            FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping = ((FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC)(inValues[0]));</text>
+			<text rtid="8302">            FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping = ((FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8303">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValueSetsForDomainRC(objValueSetMapping, callback, asyncState);</text>
+			<text rtid="8303">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValueSetsForDomainRC(objValueSetMapping, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8307">            FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValueSetsForDomainRC(result);</text>
+			<text rtid="8307">            FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValueSetsForDomainRC(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8319">        public void GetLinkedValueSetsForDomainRCAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping) {</text>
+			<text rtid="8319">        public void GetLinkedValueSetsForDomainRCAsync(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8323">        public void GetLinkedValueSetsForDomainRCAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, object userState) {</text>
+			<text rtid="8323">        public void GetLinkedValueSetsForDomainRCAsync(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8338">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8338">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValuesByDomains(FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8343">        FluidsManagementUI.Terminology.CResMsgGetValuesByDomains FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="8343">        FluidBalance.Terminology.CResMsgGetValuesByDomains FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8348">            FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo = ((FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains)(inValues[0]));</text>
+			<text rtid="8348">            FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo = ((FluidBalance.Terminology.CReqMsgGetValuesByDomains)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8349">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValuesByDomains(objDomainInfo, callback, asyncState);</text>
+			<text rtid="8349">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValuesByDomains(objDomainInfo, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8353">            FluidsManagementUI.Terminology.CResMsgGetValuesByDomains retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValuesByDomains(result);</text>
+			<text rtid="8353">            FluidBalance.Terminology.CResMsgGetValuesByDomains retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValuesByDomains(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8365">        public void GetValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo) {</text>
+			<text rtid="8365">        public void GetValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8369">        public void GetValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo, object userState) {</text>
+			<text rtid="8369">        public void GetValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8384">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetHierarchicalValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8384">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetHierarchicalValuesByDomains(FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8389">        FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetHierarchicalValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="8389">        FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains FluidBalance.Terminology.CReferenceWSWSSoap.EndGetHierarchicalValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8394">            FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo = ((FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains)(inValues[0]));</text>
+			<text rtid="8394">            FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo = ((FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8395">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetHierarchicalValuesByDomains(oDomainsInfo, callback, asyncState);</text>
+			<text rtid="8395">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetHierarchicalValuesByDomains(oDomainsInfo, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8399">            FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetHierarchicalValuesByDomains(result);</text>
+			<text rtid="8399">            FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetHierarchicalValuesByDomains(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8411">        public void GetHierarchicalValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo) {</text>
+			<text rtid="8411">        public void GetHierarchicalValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8415">        public void GetHierarchicalValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, object userState) {</text>
+			<text rtid="8415">        public void GetHierarchicalValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8430">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAllValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8430">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAllValuesByDomains(FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8435">        FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAllValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="8435">        FluidBalance.Terminology.CResMsgGetAllValuesByDomains FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAllValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8440">            FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo = ((FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains)(inValues[0]));</text>
+			<text rtid="8440">            FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo = ((FluidBalance.Terminology.CReqMsgGetAllValuesByDomains)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8441">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllValuesByDomains(oDomainsInfo, callback, asyncState);</text>
+			<text rtid="8441">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAllValuesByDomains(oDomainsInfo, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8445">            FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAllValuesByDomains(result);</text>
+			<text rtid="8445">            FluidBalance.Terminology.CResMsgGetAllValuesByDomains retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAllValuesByDomains(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8457">        public void GetAllValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo) {</text>
+			<text rtid="8457">        public void GetAllValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8461">        public void GetAllValuesByDomainsAsync(FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, object userState) {</text>
+			<text rtid="8461">        public void GetAllValuesByDomainsAsync(FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8476">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetLinkedValues(FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8476">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetLinkedValues(FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8481">        FluidsManagementUI.Terminology.CResMsgGetLinkedValues FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetLinkedValues(System.IAsyncResult result) {</text>
+			<text rtid="8481">        FluidBalance.Terminology.CResMsgGetLinkedValues FluidBalance.Terminology.CReferenceWSWSSoap.EndGetLinkedValues(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8486">            FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping = ((FluidsManagementUI.Terminology.CReqMsgGetLinkedValues)(inValues[0]));</text>
+			<text rtid="8486">            FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping = ((FluidBalance.Terminology.CReqMsgGetLinkedValues)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8487">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValues(objValSetMapping, callback, asyncState);</text>
+			<text rtid="8487">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetLinkedValues(objValSetMapping, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8491">            FluidsManagementUI.Terminology.CResMsgGetLinkedValues retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValues(result);</text>
+			<text rtid="8491">            FluidBalance.Terminology.CResMsgGetLinkedValues retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetLinkedValues(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8503">        public void GetLinkedValuesAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping) {</text>
+			<text rtid="8503">        public void GetLinkedValuesAsync(FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8507">        public void GetLinkedValuesAsync(FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping, object userState) {</text>
+			<text rtid="8507">        public void GetLinkedValuesAsync(FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8522">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValueSetByCriteria(FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8522">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValueSetByCriteria(FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8527">        FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValueSetByCriteria(System.IAsyncResult result) {</text>
+			<text rtid="8527">        FluidBalance.Terminology.CResMsgGetValueSetByCriteria FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValueSetByCriteria(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8532">            FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch = ((FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria)(inValues[0]));</text>
+			<text rtid="8532">            FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch = ((FluidBalance.Terminology.CReqMsgGetValueSetByCriteria)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8533">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueSetByCriteria(objValueSetSearch, callback, asyncState);</text>
+			<text rtid="8533">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValueSetByCriteria(objValueSetSearch, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8537">            FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValueSetByCriteria(result);</text>
+			<text rtid="8537">            FluidBalance.Terminology.CResMsgGetValueSetByCriteria retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValueSetByCriteria(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8549">        public void GetValueSetByCriteriaAsync(FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch) {</text>
+			<text rtid="8549">        public void GetValueSetByCriteriaAsync(FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8553">        public void GetValueSetByCriteriaAsync(FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, object userState) {</text>
+			<text rtid="8553">        public void GetValueSetByCriteriaAsync(FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8568">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetAssociatedDataFilters(FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8568">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetAssociatedDataFilters(FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8573">        FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetAssociatedDataFilters(System.IAsyncResult result) {</text>
+			<text rtid="8573">        FluidBalance.Terminology.CResMsgGetAssociatedDataFilters FluidBalance.Terminology.CReferenceWSWSSoap.EndGetAssociatedDataFilters(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8578">            FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion = ((FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters)(inValues[0]));</text>
+			<text rtid="8578">            FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion = ((FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8579">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetAssociatedDataFilters(sElementVersion, callback, asyncState);</text>
+			<text rtid="8579">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetAssociatedDataFilters(sElementVersion, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8583">            FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetAssociatedDataFilters(result);</text>
+			<text rtid="8583">            FluidBalance.Terminology.CResMsgGetAssociatedDataFilters retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetAssociatedDataFilters(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8595">        public void GetAssociatedDataFiltersAsync(FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion) {</text>
+			<text rtid="8595">        public void GetAssociatedDataFiltersAsync(FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8599">        public void GetAssociatedDataFiltersAsync(FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, object userState) {</text>
+			<text rtid="8599">        public void GetAssociatedDataFiltersAsync(FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8614">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginIsExistsDataFilter(FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8614">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginIsExistsDataFilter(FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8619">        FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndIsExistsDataFilter(System.IAsyncResult result) {</text>
+			<text rtid="8619">        FluidBalance.Terminology.CResMsgIsExistsDataFilter FluidBalance.Terminology.CReferenceWSWSSoap.EndIsExistsDataFilter(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8624">            FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter = ((FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter)(inValues[0]));</text>
+			<text rtid="8624">            FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter = ((FluidBalance.Terminology.CReqMsgIsExistsDataFilter)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8625">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginIsExistsDataFilter(objCQItemDataFilter, callback, asyncState);</text>
+			<text rtid="8625">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginIsExistsDataFilter(objCQItemDataFilter, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8629">            FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndIsExistsDataFilter(result);</text>
+			<text rtid="8629">            FluidBalance.Terminology.CResMsgIsExistsDataFilter retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndIsExistsDataFilter(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8641">        public void IsExistsDataFilterAsync(FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter) {</text>
+			<text rtid="8641">        public void IsExistsDataFilterAsync(FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8645">        public void IsExistsDataFilterAsync(FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, object userState) {</text>
+			<text rtid="8645">        public void IsExistsDataFilterAsync(FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8660">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginIsExistsVersionedValueSet(FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8660">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginIsExistsVersionedValueSet(FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8665">        FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndIsExistsVersionedValueSet(System.IAsyncResult result) {</text>
+			<text rtid="8665">        FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet FluidBalance.Terminology.CReferenceWSWSSoap.EndIsExistsVersionedValueSet(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8670">            FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup = ((FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet)(inValues[0]));</text>
+			<text rtid="8670">            FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup = ((FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8671">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginIsExistsVersionedValueSet(objCQExistsVersionedGroup, callback, asyncState);</text>
+			<text rtid="8671">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginIsExistsVersionedValueSet(objCQExistsVersionedGroup, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8675">            FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndIsExistsVersionedValueSet(result);</text>
+			<text rtid="8675">            FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndIsExistsVersionedValueSet(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8687">        public void IsExistsVersionedValueSetAsync(FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup) {</text>
+			<text rtid="8687">        public void IsExistsVersionedValueSetAsync(FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8691">        public void IsExistsVersionedValueSetAsync(FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, object userState) {</text>
+			<text rtid="8691">        public void IsExistsVersionedValueSetAsync(FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8706">        System.IAsyncResult FluidsManagementUI.Terminology.CReferenceWSWSSoap.BeginGetValuesByText(FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8706">        System.IAsyncResult FluidBalance.Terminology.CReferenceWSWSSoap.BeginGetValuesByText(FluidBalance.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8711">        FluidsManagementUI.Terminology.CResMsgGetValuesByText FluidsManagementUI.Terminology.CReferenceWSWSSoap.EndGetValuesByText(System.IAsyncResult result) {</text>
+			<text rtid="8711">        FluidBalance.Terminology.CResMsgGetValuesByText FluidBalance.Terminology.CReferenceWSWSSoap.EndGetValuesByText(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8716">            FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText = ((FluidsManagementUI.Terminology.CReqMsgGetValuesByText)(inValues[0]));</text>
+			<text rtid="8716">            FluidBalance.Terminology.CReqMsgGetValuesByText objValueText = ((FluidBalance.Terminology.CReqMsgGetValuesByText)(inValues[0]));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8717">            return ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).BeginGetValuesByText(objValueText, callback, asyncState);</text>
+			<text rtid="8717">            return ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).BeginGetValuesByText(objValueText, callback, asyncState);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8721">            FluidsManagementUI.Terminology.CResMsgGetValuesByText retVal = ((FluidsManagementUI.Terminology.CReferenceWSWSSoap)(this)).EndGetValuesByText(result);</text>
+			<text rtid="8721">            FluidBalance.Terminology.CResMsgGetValuesByText retVal = ((FluidBalance.Terminology.CReferenceWSWSSoap)(this)).EndGetValuesByText(result);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8733">        public void GetValuesByTextAsync(FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText) {</text>
+			<text rtid="8733">        public void GetValuesByTextAsync(FluidBalance.Terminology.CReqMsgGetValuesByText objValueText) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8737">        public void GetValuesByTextAsync(FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText, object userState) {</text>
+			<text rtid="8737">        public void GetValuesByTextAsync(FluidBalance.Terminology.CReqMsgGetValuesByText objValueText, object userState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8817">        protected override FluidsManagementUI.Terminology.CReferenceWSWSSoap CreateChannel() {</text>
+			<text rtid="8817">        protected override FluidBalance.Terminology.CReferenceWSWSSoap CreateChannel() {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8821">        private class CReferenceWSWSSoapClientChannel : ChannelBase&lt;FluidsManagementUI.Terminology.CReferenceWSWSSoap>, FluidsManagementUI.Terminology.CReferenceWSWSSoap {</text>
+			<text rtid="8821">        private class CReferenceWSWSSoapClientChannel : ChannelBase&lt;FluidBalance.Terminology.CReferenceWSWSSoap>, FluidBalance.Terminology.CReferenceWSWSSoap {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8823">            public CReferenceWSWSSoapClientChannel(System.ServiceModel.ClientBase&lt;FluidsManagementUI.Terminology.CReferenceWSWSSoap> client) : </text>
+			<text rtid="8823">            public CReferenceWSWSSoapClientChannel(System.ServiceModel.ClientBase&lt;FluidBalance.Terminology.CReferenceWSWSSoap> client) : </text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8827">            public System.IAsyncResult BeginGetAllValueDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8827">            public System.IAsyncResult BeginGetAllValueDomains(FluidBalance.Terminology.CReqMsgGetAllValueDomains objScheme, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8834">            public FluidsManagementUI.Terminology.CResMsgGetAllValueDomains EndGetAllValueDomains(System.IAsyncResult result) {</text>
+			<text rtid="8834">            public FluidBalance.Terminology.CResMsgGetAllValueDomains EndGetAllValueDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8836">                FluidsManagementUI.Terminology.CResMsgGetAllValueDomains _result = ((FluidsManagementUI.Terminology.CResMsgGetAllValueDomains)(base.EndInvoke("GetAllValueDomains", _args, result)));</text>
+			<text rtid="8836">                FluidBalance.Terminology.CResMsgGetAllValueDomains _result = ((FluidBalance.Terminology.CResMsgGetAllValueDomains)(base.EndInvoke("GetAllValueDomains", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8840">            public System.IAsyncResult BeginGetValueDomainByDomainCode(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8840">            public System.IAsyncResult BeginGetValueDomainByDomainCode(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCode objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8847">            public FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode EndGetValueDomainByDomainCode(System.IAsyncResult result) {</text>
+			<text rtid="8847">            public FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode EndGetValueDomainByDomainCode(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8849">                FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode _result = ((FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCode)(base.EndInvoke("GetValueDomainByDomainCode", _args, result)));</text>
+			<text rtid="8849">                FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode _result = ((FluidBalance.Terminology.CResMsgGetValueDomainByDomainCode)(base.EndInvoke("GetValueDomainByDomainCode", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8853">            public System.IAsyncResult BeginGetAllReferenceCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8853">            public System.IAsyncResult BeginGetAllReferenceCodesByDomain(FluidBalance.Terminology.CReqMsgGetAllReferenceCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8860">            public FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain EndGetAllReferenceCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="8860">            public FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain EndGetAllReferenceCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8862">                FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodesByDomain)(base.EndInvoke("GetAllReferenceCodesByDomain", _args, result)));</text>
+			<text rtid="8862">                FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain _result = ((FluidBalance.Terminology.CResMsgGetAllReferenceCodesByDomain)(base.EndInvoke("GetAllReferenceCodesByDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8866">            public System.IAsyncResult BeginGetLinkedValueSetsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8866">            public System.IAsyncResult BeginGetLinkedValueSetsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8873">            public FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain EndGetLinkedValueSetsForDomain(System.IAsyncResult result) {</text>
+			<text rtid="8873">            public FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain EndGetLinkedValueSetsForDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8875">                FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomain)(base.EndInvoke("GetLinkedValueSetsForDomain", _args, result)));</text>
+			<text rtid="8875">                FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain _result = ((FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomain)(base.EndInvoke("GetLinkedValueSetsForDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8879">            public System.IAsyncResult BeginGetConceptDescriptionByID(FluidsManagementUI.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8879">            public System.IAsyncResult BeginGetConceptDescriptionByID(FluidBalance.Terminology.CReqMsgGetConceptDescriptionByID objConcept, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8886">            public FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID EndGetConceptDescriptionByID(System.IAsyncResult result) {</text>
+			<text rtid="8886">            public FluidBalance.Terminology.CResMsgGetConceptDescriptionByID EndGetConceptDescriptionByID(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8888">                FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID _result = ((FluidsManagementUI.Terminology.CResMsgGetConceptDescriptionByID)(base.EndInvoke("GetConceptDescriptionByID", _args, result)));</text>
+			<text rtid="8888">                FluidBalance.Terminology.CResMsgGetConceptDescriptionByID _result = ((FluidBalance.Terminology.CResMsgGetConceptDescriptionByID)(base.EndInvoke("GetConceptDescriptionByID", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8892">            public System.IAsyncResult BeginGetRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8892">            public System.IAsyncResult BeginGetRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8899">            public FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain EndGetRefCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="8899">            public FluidBalance.Terminology.CResMsgGetRefCodesByDomain EndGetRefCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8901">                FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetRefCodesByDomain)(base.EndInvoke("GetRefCodesByDomain", _args, result)));</text>
+			<text rtid="8901">                FluidBalance.Terminology.CResMsgGetRefCodesByDomain _result = ((FluidBalance.Terminology.CResMsgGetRefCodesByDomain)(base.EndInvoke("GetRefCodesByDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8905">            public System.IAsyncResult BeginGetDefRefCodesByDomain(FluidsManagementUI.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8905">            public System.IAsyncResult BeginGetDefRefCodesByDomain(FluidBalance.Terminology.CReqMsgGetDefRefCodesByDomain objValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8912">            public FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain EndGetDefRefCodesByDomain(System.IAsyncResult result) {</text>
+			<text rtid="8912">            public FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain EndGetDefRefCodesByDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8914">                FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetDefRefCodesByDomain)(base.EndInvoke("GetDefRefCodesByDomain", _args, result)));</text>
+			<text rtid="8914">                FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain _result = ((FluidBalance.Terminology.CResMsgGetDefRefCodesByDomain)(base.EndInvoke("GetDefRefCodesByDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8918">            public System.IAsyncResult BeginGetAllConceptCodesByPropDomain(FluidsManagementUI.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8918">            public System.IAsyncResult BeginGetAllConceptCodesByPropDomain(FluidBalance.Terminology.CReqMsgGetAllConceptCodesByPropDomain objConProperty, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8925">            public FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain EndGetAllConceptCodesByPropDomain(System.IAsyncResult result) {</text>
+			<text rtid="8925">            public FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain EndGetAllConceptCodesByPropDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8927">                FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetAllConceptCodesByPropDomain)(base.EndInvoke("GetAllConceptCodesByPropDomain", _args, result)));</text>
+			<text rtid="8927">                FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain _result = ((FluidBalance.Terminology.CResMsgGetAllConceptCodesByPropDomain)(base.EndInvoke("GetAllConceptCodesByPropDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8931">            public System.IAsyncResult BeginGetAllReferenceCodes(FluidsManagementUI.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8931">            public System.IAsyncResult BeginGetAllReferenceCodes(FluidBalance.Terminology.CReqMsgGetAllReferenceCodes objDomainValue, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8938">            public FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes EndGetAllReferenceCodes(System.IAsyncResult result) {</text>
+			<text rtid="8938">            public FluidBalance.Terminology.CResMsgGetAllReferenceCodes EndGetAllReferenceCodes(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8940">                FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes _result = ((FluidsManagementUI.Terminology.CResMsgGetAllReferenceCodes)(base.EndInvoke("GetAllReferenceCodes", _args, result)));</text>
+			<text rtid="8940">                FluidBalance.Terminology.CResMsgGetAllReferenceCodes _result = ((FluidBalance.Terminology.CResMsgGetAllReferenceCodes)(base.EndInvoke("GetAllReferenceCodes", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8944">            public System.IAsyncResult BeginGetLinkedDomainsForDomain(FluidsManagementUI.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8944">            public System.IAsyncResult BeginGetLinkedDomainsForDomain(FluidBalance.Terminology.CReqMsgGetLinkedDomainsForDomain objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8951">            public FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain EndGetLinkedDomainsForDomain(System.IAsyncResult result) {</text>
+			<text rtid="8951">            public FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain EndGetLinkedDomainsForDomain(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8953">                FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain _result = ((FluidsManagementUI.Terminology.CResMsgGetLinkedDomainsForDomain)(base.EndInvoke("GetLinkedDomainsForDomain", _args, result)));</text>
+			<text rtid="8953">                FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain _result = ((FluidBalance.Terminology.CResMsgGetLinkedDomainsForDomain)(base.EndInvoke("GetLinkedDomainsForDomain", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8957">            public System.IAsyncResult BeginGetValueDomainByDomainCodeRC(FluidsManagementUI.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8957">            public System.IAsyncResult BeginGetValueDomainByDomainCodeRC(FluidBalance.Terminology.CReqMsgGetValueDomainByDomainCodeRC objDomain, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8964">            public FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC EndGetValueDomainByDomainCodeRC(System.IAsyncResult result) {</text>
+			<text rtid="8964">            public FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC EndGetValueDomainByDomainCodeRC(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8966">                FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC _result = ((FluidsManagementUI.Terminology.CResMsgGetValueDomainByDomainCodeRC)(base.EndInvoke("GetValueDomainByDomainCodeRC", _args, result)));</text>
+			<text rtid="8966">                FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC _result = ((FluidBalance.Terminology.CResMsgGetValueDomainByDomainCodeRC)(base.EndInvoke("GetValueDomainByDomainCodeRC", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8970">            public System.IAsyncResult BeginGetReferenceRelationDetails(FluidsManagementUI.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8970">            public System.IAsyncResult BeginGetReferenceRelationDetails(FluidBalance.Terminology.CReqMsgGetReferenceRelationDetails objMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8977">            public FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails EndGetReferenceRelationDetails(System.IAsyncResult result) {</text>
+			<text rtid="8977">            public FluidBalance.Terminology.CResMsgGetReferenceRelationDetails EndGetReferenceRelationDetails(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8979">                FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails _result = ((FluidsManagementUI.Terminology.CResMsgGetReferenceRelationDetails)(base.EndInvoke("GetReferenceRelationDetails", _args, result)));</text>
+			<text rtid="8979">                FluidBalance.Terminology.CResMsgGetReferenceRelationDetails _result = ((FluidBalance.Terminology.CResMsgGetReferenceRelationDetails)(base.EndInvoke("GetReferenceRelationDetails", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8983">            public System.IAsyncResult BeginGetValueDomainBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8983">            public System.IAsyncResult BeginGetValueDomainBySFS(FluidBalance.Terminology.CReqMsgGetValueDomainBySFS nPageIndex, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8990">            public FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS EndGetValueDomainBySFS(System.IAsyncResult result) {</text>
+			<text rtid="8990">            public FluidBalance.Terminology.CResMsgGetValueDomainBySFS EndGetValueDomainBySFS(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8992">                FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS _result = ((FluidsManagementUI.Terminology.CResMsgGetValueDomainBySFS)(base.EndInvoke("GetValueDomainBySFS", _args, result)));</text>
+			<text rtid="8992">                FluidBalance.Terminology.CResMsgGetValueDomainBySFS _result = ((FluidBalance.Terminology.CResMsgGetValueDomainBySFS)(base.EndInvoke("GetValueDomainBySFS", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8996">            public System.IAsyncResult BeginGetValueSetBySFS(FluidsManagementUI.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="8996">            public System.IAsyncResult BeginGetValueSetBySFS(FluidBalance.Terminology.CReqMsgGetValueSetBySFS objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9003">            public FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS EndGetValueSetBySFS(System.IAsyncResult result) {</text>
+			<text rtid="9003">            public FluidBalance.Terminology.CResMsgGetValueSetBySFS EndGetValueSetBySFS(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9005">                FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS _result = ((FluidsManagementUI.Terminology.CResMsgGetValueSetBySFS)(base.EndInvoke("GetValueSetBySFS", _args, result)));</text>
+			<text rtid="9005">                FluidBalance.Terminology.CResMsgGetValueSetBySFS _result = ((FluidBalance.Terminology.CResMsgGetValueSetBySFS)(base.EndInvoke("GetValueSetBySFS", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9009">            public System.IAsyncResult BeginGetAllHealthOrganisations(FluidsManagementUI.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9009">            public System.IAsyncResult BeginGetAllHealthOrganisations(FluidBalance.Terminology.CReqMsgGetAllHealthOrganisations objHealthOrgn, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9016">            public FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations EndGetAllHealthOrganisations(System.IAsyncResult result) {</text>
+			<text rtid="9016">            public FluidBalance.Terminology.CResMsgGetAllHealthOrganisations EndGetAllHealthOrganisations(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9018">                FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations _result = ((FluidsManagementUI.Terminology.CResMsgGetAllHealthOrganisations)(base.EndInvoke("GetAllHealthOrganisations", _args, result)));</text>
+			<text rtid="9018">                FluidBalance.Terminology.CResMsgGetAllHealthOrganisations _result = ((FluidBalance.Terminology.CResMsgGetAllHealthOrganisations)(base.EndInvoke("GetAllHealthOrganisations", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9022">            public System.IAsyncResult BeginGetLinkedValueSetsForDomainRC(FluidsManagementUI.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9022">            public System.IAsyncResult BeginGetLinkedValueSetsForDomainRC(FluidBalance.Terminology.CReqMsgGetLinkedValueSetsForDomainRC objValueSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9029">            public FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result) {</text>
+			<text rtid="9029">            public FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC EndGetLinkedValueSetsForDomainRC(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9031">                FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC _result = ((FluidsManagementUI.Terminology.CResMsgGetLinkedValueSetsForDomainRC)(base.EndInvoke("GetLinkedValueSetsForDomainRC", _args, result)));</text>
+			<text rtid="9031">                FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC _result = ((FluidBalance.Terminology.CResMsgGetLinkedValueSetsForDomainRC)(base.EndInvoke("GetLinkedValueSetsForDomainRC", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9035">            public System.IAsyncResult BeginGetValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9035">            public System.IAsyncResult BeginGetValuesByDomains(FluidBalance.Terminology.CReqMsgGetValuesByDomains objDomainInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9042">            public FluidsManagementUI.Terminology.CResMsgGetValuesByDomains EndGetValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="9042">            public FluidBalance.Terminology.CResMsgGetValuesByDomains EndGetValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9044">                FluidsManagementUI.Terminology.CResMsgGetValuesByDomains _result = ((FluidsManagementUI.Terminology.CResMsgGetValuesByDomains)(base.EndInvoke("GetValuesByDomains", _args, result)));</text>
+			<text rtid="9044">                FluidBalance.Terminology.CResMsgGetValuesByDomains _result = ((FluidBalance.Terminology.CResMsgGetValuesByDomains)(base.EndInvoke("GetValuesByDomains", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9048">            public System.IAsyncResult BeginGetHierarchicalValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9048">            public System.IAsyncResult BeginGetHierarchicalValuesByDomains(FluidBalance.Terminology.CReqMsgGetHierarchicalValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9055">            public FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains EndGetHierarchicalValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="9055">            public FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains EndGetHierarchicalValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9057">                FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains _result = ((FluidsManagementUI.Terminology.CResMsgGetHierarchicalValuesByDomains)(base.EndInvoke("GetHierarchicalValuesByDomains", _args, result)));</text>
+			<text rtid="9057">                FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains _result = ((FluidBalance.Terminology.CResMsgGetHierarchicalValuesByDomains)(base.EndInvoke("GetHierarchicalValuesByDomains", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9061">            public System.IAsyncResult BeginGetAllValuesByDomains(FluidsManagementUI.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9061">            public System.IAsyncResult BeginGetAllValuesByDomains(FluidBalance.Terminology.CReqMsgGetAllValuesByDomains oDomainsInfo, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9068">            public FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains EndGetAllValuesByDomains(System.IAsyncResult result) {</text>
+			<text rtid="9068">            public FluidBalance.Terminology.CResMsgGetAllValuesByDomains EndGetAllValuesByDomains(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9070">                FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains _result = ((FluidsManagementUI.Terminology.CResMsgGetAllValuesByDomains)(base.EndInvoke("GetAllValuesByDomains", _args, result)));</text>
+			<text rtid="9070">                FluidBalance.Terminology.CResMsgGetAllValuesByDomains _result = ((FluidBalance.Terminology.CResMsgGetAllValuesByDomains)(base.EndInvoke("GetAllValuesByDomains", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9074">            public System.IAsyncResult BeginGetLinkedValues(FluidsManagementUI.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9074">            public System.IAsyncResult BeginGetLinkedValues(FluidBalance.Terminology.CReqMsgGetLinkedValues objValSetMapping, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9081">            public FluidsManagementUI.Terminology.CResMsgGetLinkedValues EndGetLinkedValues(System.IAsyncResult result) {</text>
+			<text rtid="9081">            public FluidBalance.Terminology.CResMsgGetLinkedValues EndGetLinkedValues(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9083">                FluidsManagementUI.Terminology.CResMsgGetLinkedValues _result = ((FluidsManagementUI.Terminology.CResMsgGetLinkedValues)(base.EndInvoke("GetLinkedValues", _args, result)));</text>
+			<text rtid="9083">                FluidBalance.Terminology.CResMsgGetLinkedValues _result = ((FluidBalance.Terminology.CResMsgGetLinkedValues)(base.EndInvoke("GetLinkedValues", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9087">            public System.IAsyncResult BeginGetValueSetByCriteria(FluidsManagementUI.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9087">            public System.IAsyncResult BeginGetValueSetByCriteria(FluidBalance.Terminology.CReqMsgGetValueSetByCriteria objValueSetSearch, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9094">            public FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria EndGetValueSetByCriteria(System.IAsyncResult result) {</text>
+			<text rtid="9094">            public FluidBalance.Terminology.CResMsgGetValueSetByCriteria EndGetValueSetByCriteria(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9096">                FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria _result = ((FluidsManagementUI.Terminology.CResMsgGetValueSetByCriteria)(base.EndInvoke("GetValueSetByCriteria", _args, result)));</text>
+			<text rtid="9096">                FluidBalance.Terminology.CResMsgGetValueSetByCriteria _result = ((FluidBalance.Terminology.CResMsgGetValueSetByCriteria)(base.EndInvoke("GetValueSetByCriteria", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9100">            public System.IAsyncResult BeginGetAssociatedDataFilters(FluidsManagementUI.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9100">            public System.IAsyncResult BeginGetAssociatedDataFilters(FluidBalance.Terminology.CReqMsgGetAssociatedDataFilters sElementVersion, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9107">            public FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters EndGetAssociatedDataFilters(System.IAsyncResult result) {</text>
+			<text rtid="9107">            public FluidBalance.Terminology.CResMsgGetAssociatedDataFilters EndGetAssociatedDataFilters(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9109">                FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters _result = ((FluidsManagementUI.Terminology.CResMsgGetAssociatedDataFilters)(base.EndInvoke("GetAssociatedDataFilters", _args, result)));</text>
+			<text rtid="9109">                FluidBalance.Terminology.CResMsgGetAssociatedDataFilters _result = ((FluidBalance.Terminology.CResMsgGetAssociatedDataFilters)(base.EndInvoke("GetAssociatedDataFilters", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9113">            public System.IAsyncResult BeginIsExistsDataFilter(FluidsManagementUI.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9113">            public System.IAsyncResult BeginIsExistsDataFilter(FluidBalance.Terminology.CReqMsgIsExistsDataFilter objCQItemDataFilter, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9120">            public FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter EndIsExistsDataFilter(System.IAsyncResult result) {</text>
+			<text rtid="9120">            public FluidBalance.Terminology.CResMsgIsExistsDataFilter EndIsExistsDataFilter(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9122">                FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter _result = ((FluidsManagementUI.Terminology.CResMsgIsExistsDataFilter)(base.EndInvoke("IsExistsDataFilter", _args, result)));</text>
+			<text rtid="9122">                FluidBalance.Terminology.CResMsgIsExistsDataFilter _result = ((FluidBalance.Terminology.CResMsgIsExistsDataFilter)(base.EndInvoke("IsExistsDataFilter", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9126">            public System.IAsyncResult BeginIsExistsVersionedValueSet(FluidsManagementUI.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9126">            public System.IAsyncResult BeginIsExistsVersionedValueSet(FluidBalance.Terminology.CReqMsgIsExistsVersionedValueSet objCQExistsVersionedGroup, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9133">            public FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet EndIsExistsVersionedValueSet(System.IAsyncResult result) {</text>
+			<text rtid="9133">            public FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet EndIsExistsVersionedValueSet(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9135">                FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet _result = ((FluidsManagementUI.Terminology.CResMsgIsExistsVersionedValueSet)(base.EndInvoke("IsExistsVersionedValueSet", _args, result)));</text>
+			<text rtid="9135">                FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet _result = ((FluidBalance.Terminology.CResMsgIsExistsVersionedValueSet)(base.EndInvoke("IsExistsVersionedValueSet", _args, result)));</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9139">            public System.IAsyncResult BeginGetValuesByText(FluidsManagementUI.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState) {</text>
+			<text rtid="9139">            public System.IAsyncResult BeginGetValuesByText(FluidBalance.Terminology.CReqMsgGetValuesByText objValueText, System.AsyncCallback callback, object asyncState) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9146">            public FluidsManagementUI.Terminology.CResMsgGetValuesByText EndGetValuesByText(System.IAsyncResult result) {</text>
+			<text rtid="9146">            public FluidBalance.Terminology.CResMsgGetValuesByText EndGetValuesByText(System.IAsyncResult result) {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9148">                FluidsManagementUI.Terminology.CResMsgGetValuesByText _result = ((FluidsManagementUI.Terminology.CResMsgGetValuesByText)(base.EndInvoke("GetValuesByText", _args, result)));</text>
+			<text rtid="9148">                FluidBalance.Terminology.CResMsgGetValuesByText _result = ((FluidBalance.Terminology.CResMsgGetValuesByText)(base.EndInvoke("GetValuesByText", _args, result)));</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

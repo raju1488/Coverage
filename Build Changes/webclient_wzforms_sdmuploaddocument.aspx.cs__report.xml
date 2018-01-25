@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:39:56 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:39:56 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\scan document\webclient\wzforms\sdmuploaddocument.aspx.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\scan document\webclient\wzforms\sdmuploaddocument.aspx.cs</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="196">                     if (!string.IsNullOrEmpty(WizardContext["RFOID"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="197">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="198">                        PageState.SetValue("RFOID", WizardContext["RFOID"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="199">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="200">                    if (!string.IsNullOrEmpty(WizardContext["CNREFIDENTIFYINGTYPE"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="201">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="202">                        PageState.SetValue("CNREFIDENTIFYINGTYPE", WizardContext["CNREFIDENTIFYINGTYPE"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="203">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="204">                    if (!string.IsNullOrEmpty(WizardContext["REFTRMTFNOID"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="205">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="206">                        PageState.SetValue("REFTRMTFNOID", WizardContext["REFTRMTFNOID"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="207">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="570">                            if (PageState != null &amp;&amp; !string.IsNullOrEmpty(PageState.GetValue("RFOID")))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="571">                            {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="572">                                objReferralDocument[loop].oScannedDocument.IdentifyingOID = Convert.ToInt64(PageState.GetValue("RFOID"));</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="573">                                if (!string.IsNullOrEmpty(PageState.GetValue("CNREFIDENTIFYINGTYPE")))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="574">                                    objReferralDocument[loop].oScannedDocument.IdentifyingType = PageState.GetValue("CNREFIDENTIFYINGTYPE");</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="575">                                if (!string.IsNullOrEmpty(PageState.GetValue("REFTRMTFNOID")))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="576">                                    objReferralDocument[loop].oScannedDocument.SpecialtyTreatmentFnOID = Convert.ToInt64(PageState.GetValue("REFTRMTFNOID"));</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="577">                            }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="732">                        objSDMUploadDocument.PageState = PageState;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="790">                        objSDMUploadDocument.PageState = PageState;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="843">                        objSDMUploadDocument.PageState = PageState;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="853">                            if (!string.IsNullOrEmpty(base.WizardContext["REFTRMTFNOID"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="854">                                objReqMsgUploadReferral.oContextBC.RFTreatmentFunctionOID = Convert.ToInt64(base.WizardContext["REFTRMTFNOID"]);</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

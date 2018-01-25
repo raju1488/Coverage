@@ -1,0 +1,8 @@
+D:\snomed\setup\LorArcSnomedServiceHost.exe.config
+D:\snomed\setup\LorArcSnomedServiceHost.exe
+D:\snomed\setup\LorArcSnomedServiceHost.pdb
+D:\Platform\Memory\LorArcSnomedServiceHost\obj\Debug\LorArcSnomedServiceHost.csprojResolveAssemblyReference.cache
+D:\Platform\Memory\LorArcSnomedServiceHost\obj\Debug\LorArcSnomedServiceHost.ProjectInstaller.resources
+D:\Platform\Memory\LorArcSnomedServiceHost\obj\Debug\LorArcSnomedServiceHost.csproj.GenerateResource.Cache
+D:\Platform\Memory\LorArcSnomedServiceHost\obj\Debug\LorArcSnomedServiceHost.exe
+D:\Platform\Memory\LorArcSnomedServiceHost\obj\Debug\LorArcSnomedServiceHost.pdb

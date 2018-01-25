@@ -1,0 +1,81 @@
+﻿Uninstalling assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Removing EventLog source Code Coverage Service.
+Service Code Coverage Service is being removed from the system...
+Service Code Coverage Service was successfully removed from the system.
+Installing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing service Code Coverage Service...
+Service Code Coverage Service has been successfully installed.
+Creating EventLog source Code Coverage Service in log Application...
+Committing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Uninstalling assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Removing EventLog source Code Coverage Service.
+Service Code Coverage Service is being removed from the system...
+Service Code Coverage Service was successfully removed from the system.
+Installing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing service Code Coverage Service...
+Service Code Coverage Service has been successfully installed.
+Creating EventLog source Code Coverage Service in log Application...
+Committing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing service Code Coverage Service...
+Creating EventLog source Code Coverage Service in log Application...
+Rolling back assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Restoring event log to previous state for source Code Coverage Service.
+Installing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing service Code Coverage Service...
+Service Code Coverage Service has been successfully installed.
+Creating EventLog source Code Coverage Service in log Application...
+Committing assembly 'D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Codes\karthi\CodeService\bin\CodeServiceHost.InstallLog
+   assemblypath = D:\Codes\karthi\CodeService\bin\CodeServiceHost.exe
+Installing assembly 'C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.InstallLog
+   assemblypath = C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.exe
+Installing service Code Coverage Service...
+Service Code Coverage Service has been successfully installed.
+Creating EventLog source Code Coverage Service in log Application...
+Committing assembly 'C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.InstallLog
+   assemblypath = C:\Share\CodeCoverage\Setup\Binaries\WindowsService\CodeServiceHost.exe

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:40:11 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:40:11 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\common\webclient\lorappframework\documentproduction.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\common\webclient\lorappframework\documentproduction.cs</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="8170">                    if (!String.IsNullOrEmpty(ClinicalNoteDocumentDetails.ClinicalNoteDocumentInfo.DocTemplateTypeName) &amp;&amp; string.IsNullOrEmpty(ClinicalNoteDocumentRecipientsDetails.DocTemplateTypeName))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="8171">                    ClinicalNoteDocumentRecipientsDetails.DocTemplateTypeName = ClinicalNoteDocumentDetails.ClinicalNoteDocumentInfo.DocTemplateTypeName;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

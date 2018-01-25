@@ -1,0 +1,6 @@
+D:\Codes\CompareHelper\CompareHelper\bin\Debug\CompareHelper.exe.config
+D:\Codes\CompareHelper\CompareHelper\obj\Debug\CompareHelper.csprojResolveAssemblyReference.cache
+D:\Codes\CompareHelper\CompareHelper\bin\Debug\CompareHelper.exe
+D:\Codes\CompareHelper\CompareHelper\bin\Debug\CompareHelper.pdb
+D:\Codes\CompareHelper\CompareHelper\obj\Debug\CompareHelper.exe
+D:\Codes\CompareHelper\CompareHelper\obj\Debug\CompareHelper.pdb

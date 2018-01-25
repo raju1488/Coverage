@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:39:06 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:39:06 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\clinical statement management\viewobservation\fluidbalance\fluidbalance\properties\assemblyinfo.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\clinical statement management\viewobservation\fluidbalance\fluidbalance\properties\assemblyinfo.cs</filename2>
+		<linecomp status="different">
+			<text ltid="31">[assembly: AssemblyVersion("2.13.0000.000")]</text>
+			<text rtid="31">[assembly: AssemblyVersion("2.12.0000.000")]</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="32">[assembly: AssemblyFileVersion("2.13.0000.000")]</text>
+			<text rtid="32">[assembly: AssemblyFileVersion("2.12.0000.000")]</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

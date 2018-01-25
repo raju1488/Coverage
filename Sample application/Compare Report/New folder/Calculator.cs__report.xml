@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="9/14/2017 6:16:48 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="9/14/2017 6:16:48 PM">
+		<filename1>D:\temp\2\Calculator.cs</filename1>
+		<filename2>D:\temp\3\Calculator.cs</filename2>
+		<linecomp status="leftorphan">
+			<text ltid="7">            int temp,temp1 = 0;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="8">            temp1 = Value1 + Value2;</text>
+			<text rtid="7">            return Value1 + Value2;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="9">            temp = temp1;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="10">            return temp;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="11">            int temp, temp1 = 0;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="14">            return Value1 - Value2;</text>
+			<text rtid="12">            temp1 = Value1 - Value2;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="13">            temp = temp1;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="14">            return temp;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="18">            int temp, temp1 = 0;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="19">            temp1 = Value1 * Value2;</text>
+			<text rtid="18">            return Value1 * Value2;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="20">            temp = temp1;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="21">            return temp;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

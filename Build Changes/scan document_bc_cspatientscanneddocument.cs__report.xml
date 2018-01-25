@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:39:48 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:39:48 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\scan document\bc\cspatientscanneddocument.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\scan document\bc\cspatientscanneddocument.cs</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="217">            objClinicalNoteDocumentData.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails = new ClinicalNoteTreatmentFunDetails();</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="218">            objClinicalNoteDocumentData.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingOID = oScannedDocument.IdentifyingOID;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="219">            objClinicalNoteDocumentData.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingType = oScannedDocument.IdentifyingType;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="220">            objClinicalNoteDocumentData.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.SpecialtyTreatmentFnOID = oScannedDocument.SpecialtyTreatmentFnOID;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="LorArcSnomedServiceHost" default="build">
+  <property name="solution.file" value="LorArcSnomedServiceHost.sln" />
+  <property name="quote" value='"' />
+  <target name="build">
+    <exec program="${framework::get-framework-directory(framework::get-target-framework())}\msbuild.exe" commandline="${solution.file} /p:Configuration=${config} /t:${Build_Mode} /P:ReferencePath=${quote}${buildReferences.dir}/${quote} /p:outdir=${quote}${buildReferences.dir}/${quote}  /p:TargetFrameworkVersion=${FMK_VERSION}"/>
+  </target>
+</project>

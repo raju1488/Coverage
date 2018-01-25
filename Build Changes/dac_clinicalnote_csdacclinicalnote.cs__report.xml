@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:38:31 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:38:31 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\clinical statement management\dac\clinicalnote\csdacclinicalnote.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\clinical statement management\dac\clinicalnote\csdacclinicalnote.cs</filename2>
+		<linecomp status="different">
+			<text ltid="96">            objCommand.CommandText = "pInsertCLNCreateNote_212000000"; //"pInsertCLNCreateNote_210000000";//pInsertCLNCreateNote_265400//LE //MDM PORTING</text>
+			<text rtid="96">            objCommand.CommandText = "pInsertCLNCreateNote_212010000";//"pInsertCLNCreateNote_210000000";//pInsertCLNCreateNote_265400//LE //MDM PORTING</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="165">            objCommand.Parameters.Add("@P_IdentifyingType", SqlDbType.VarChar);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="166">            objCommand.Parameters.Add("@P_IdentifyingOID", SqlDbType.BigInt);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="167">            objCommand.Parameters.Add("@P_SpecialtyTreatmentFnOID", SqlDbType.BigInt);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="265">            objCommand.Parameters["@P_IdentifyingType"].Value = oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingType != string.Empty ? oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingType : Convert.DBNull;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="266">            objCommand.Parameters["@P_IdentifyingOID"].Value = oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingOID > 0 ? oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingOID : Convert.DBNull;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="267">            objCommand.Parameters["@P_SpecialtyTreatmentFnOID"].Value = oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.SpecialtyTreatmentFnOID > 0 ? oClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.SpecialtyTreatmentFnOID : Convert.DBNull;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

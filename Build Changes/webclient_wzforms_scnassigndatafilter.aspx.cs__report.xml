@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:40:04 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:40:04 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\schematics management\webclient\wzforms\scnassigndatafilter.aspx.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\canned documents management\webclient\wzforms\scnassigndatafilter.aspx.cs</filename2>
+		<linecomp status="different">
+			<text ltid="43">//using iSOFT.Web.Controls;</text>
+			<text rtid="43">using iSOFT.Web.Controls;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="44">//using iSOFT.LORENZO.Web.Framework;</text>
+			<text rtid="44">using iSOFT.LORENZO.Web.Framework;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="52">//using iSOFT.LORENZO.Session;</text>
+			<text rtid="52">using iSOFT.LORENZO.Session;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="54">//using iSOFT.LORENZO.Context;</text>
+			<text rtid="54">using iSOFT.LORENZO.Context;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="55">//using iSOFT.LORENZO.ServiceProxy;</text>
+			<text rtid="55">using iSOFT.LORENZO.ServiceProxy;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="57">//using iSOFT.LORENZO.Requesting.RequestItemDefinition;</text>
+			<text rtid="57">using iSOFT.LORENZO.Requesting.RequestItemDefinition;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="60">using iSOFT.LORENZO.ClinicalNarrative.SchematicsManagement.WebUI.UIControllers;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="63">namespace iSOFT.LORENZO.ClinicalNarrative.SchematicsManagement.WebUI</text>
+			<text rtid="62">namespace iSOFT.LORENZO.ClinicalNarrative.CannedDocuments.WebUI</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="70">    	protected override void Localize()</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="71">    	{</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="73">		 base.ResourceLibrary = "scnassigndatafilter";</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="75">            PageHelper.ClientErrorIDs = "45024:45030,45080";</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="76">            base.Localize();</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="78">    	}</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="87">        protected iSOFT.Web.Controls.iLabel lblStatus;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="88">        protected iSOFT.Web.Controls.iComboBox cboStatus;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="100">        protected iSOFT.Web.Controls.Ext.iExtViewState PageState;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="103">        private const long UNEXPECTED_ERROR = 53582;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="120">                base.ClientErrorResource = "canned documents management";</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="109">                CAMS.PublishProblemInfo(new CErrorEvent(ex, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="124">                CAMS.PublishProblemInfo(new CErrorEvent(ex, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="111">            base.ClientErrorResource = "SchematicsMgmnt";</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="145">                CAMS.PublishProblemInfo(new CErrorEvent(ex, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="160">                CAMS.PublishProblemInfo(new CErrorEvent(ex, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="169">            BindReferenceValues(cboStatus, "DTMCREDOCTEMPSTATUS");</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="180">            //if (base.WizardContext["DataFilterGroup"] != null)</text>
+			<text rtid="196">            if (base.WizardContext["DataFilterGroup"] != null)</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="181">            //{</text>
+			<text rtid="197">            {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="182">            //    ExtFilter.SetValue("DataFilterGroup", base.WizardContext["DataFilterGroup"].ToString());</text>
+			<text rtid="198">                ExtFilter.SetValue("DataFilterGroup", base.WizardContext["DataFilterGroup"].ToString());</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="183">            //}</text>
+			<text rtid="199">            }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="222">                if (base.WizardContext["ContextMenu"] == "MN_LIBOBJMNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="223">                {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="224">                    ExtFilter.SetValue("DataFilterGroup", "Library Objects");</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="225">                    iSOFT.LORENZO.ServiceProxy.ManageLibraryObjectWS objManageLibraryObjectWS = new iSOFT.LORENZO.ServiceProxy.ManageLibraryObjectWS();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="226">                    CReqMsgGetDatFilterByObjectOid objCReqMsgGetDatFilterByObjectOid = new CReqMsgGetDatFilterByObjectOid();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="227">                    CResMsgGetDatFilterByObjectOid objCResMsgGetDatFilterByObjectOid = new CResMsgGetDatFilterByObjectOid();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="228">                    objCReqMsgGetDatFilterByObjectOid.lnLibObjOIdBC = base.WizardContext["ObjectOID"] != null ? Convert.ToInt64(base.WizardContext["ObjectOID"]) : 0;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="229">                    objCResMsgGetDatFilterByObjectOid = objManageLibraryObjectWS.GetDatFilterByObjectOid(objCReqMsgGetDatFilterByObjectOid);</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="231">                    if (objCResMsgGetDatFilterByObjectOid != null &amp;&amp; objCResMsgGetDatFilterByObjectOid.oDataFilter != null &amp;&amp;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="232">                        objCResMsgGetDatFilterByObjectOid.oDataFilter.DataFilterDetails != null)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="233">                    {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="234">                        objDataFilter = objCResMsgGetDatFilterByObjectOid.oDataFilter;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="235">                    }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="236">                }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="237">                else if (base.WizardContext["ContextMenu"] == "MN_MNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="238">                {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="250">                }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="244">                    objDataFilter.DataFilterDetails[nIdx].TemplateStatus = TerminologyHelper.GetDomainValue("DTMCREDOCTEMPSTATUS", objDataFilter.DataFilterDetails[nIdx].TMSTSCODE);</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="264">                CAMS.PublishProblemInfo(new CErrorEvent(ex, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="253">                CAMS.PublishProblemInfo(new CErrorEvent(ex, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="276">                if (base.WizardContext["ContextMenu"] == "MN_LIBOBJMNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="277">                {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="278">                    iSOFT.LORENZO.ClinicalNarrative.SchematicManagement.CReqMsgManageDataFilter objCReqMsgManageDataFilter = request as iSOFT.LORENZO.ClinicalNarrative.SchematicManagement.CReqMsgManageDataFilter;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="279">                    objCReqMsgManageDataFilter.oLibObjBC = new LibraryObject();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="280">                    objCReqMsgManageDataFilter.oLibObjBC.LibraryObjectIdentifier = base.WizardContext["ObjectOID"] != null ? Convert.ToInt64(base.WizardContext["ObjectOID"]) : 0;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="281">                    if (base.WizardContext["TimeStamp"] != "" &amp;&amp; base.WizardContext["TimeStamp"] != null)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="282">                    {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="283">                        arrTimeStamp = base.WizardContext["TimeStamp"].Split(',');</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="284">                    }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="285">                    if (arrTimeStamp != null &amp;&amp; arrTimeStamp.Length == 7)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="286">                        objCReqMsgManageDataFilter.oLibObjBC.LastModifiedAt = new DateTime(int.Parse(arrTimeStamp[0]), int.Parse(arrTimeStamp[1]), int.Parse(arrTimeStamp[2]), int.Parse(arrTimeStamp[3]), int.Parse(arrTimeStamp[4]), int.Parse(arrTimeStamp[5]), int.Parse(arrTimeStamp[6]));</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="287">                    else</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="288">                        objCReqMsgManageDataFilter.oLibObjBC.LastModifiedAt = DateTime.MinValue;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="289">                    objCReqMsgManageDataFilter.oDataFilterBC = new DataFilter();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="290">                    objCReqMsgManageDataFilter.oDataFilterBC = FillRequestObject();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="291">                }</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="292">                else if (base.WizardContext["ContextMenu"] == "MN_MNGACCLVL")</text>
+			<text rtid="265">                if (base.WizardContext["ContextMenu"] == "MN_MNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="281">                else</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="282">                {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="283">                    iSOFT.LORENZO.HealthObjects.DataFilter objDataFilter = null;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="284">                    FieldInfo objField = request.GetType().GetField("oDataFilterBC");</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="285">                    if (objField != null)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="286">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="287">                        objDataFilter = objField.GetValue(request) as iSOFT.LORENZO.HealthObjects.DataFilter;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="288">                        objDataFilter = FillRequestObject();</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="289">                        objField.SetValue(request, objDataFilter);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="290">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="292">                }</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="313">                CAMS.PublishProblemInfo(new CErrorEvent(ex, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="298">                CAMS.PublishProblemInfo(new CErrorEvent(ex, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="326">                if (base.WizardContext["ContextMenu"] == "MN_LIBOBJMNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="327">                {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="328">                    iSOFT.LORENZO.ClinicalNarrative.SchematicManagement.CResMsgManageDataFilter res = response as iSOFT.LORENZO.ClinicalNarrative.SchematicManagement.CResMsgManageDataFilter;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="329">                    if (res.oContextInformation.Errors != null &amp;&amp; res.oContextInformation.Errors.Count > 0)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="330">                    {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="331">                        nLength = res.oContextInformation.Errors.Count;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="332">                        for (nCount = 0; nCount &lt; nLength; nCount++)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="333">                        {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="334">                            if (res.oContextInformation.Errors[nCount].ErrorID == 900025)</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="335">                            {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="336">                                MsgBox.ShowMsg(GetErrorDisplayMessage(48001, "This record has been amended by another user since you started this transaction.Please re-query the data and start the transaction again."), "LORENZO", iSOFT.Web.Controls.MessageBoxType.Critical, iSOFT.Web.Controls.MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="337">                                return false;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="339">                            }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="340">                        }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="341">                    }</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="342">                }</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="343">                else if (base.WizardContext["ContextMenu"] == "MN_MNGACCLVL")</text>
+			<text rtid="311">                if (base.WizardContext["ContextMenu"] == "MN_MNGACCLVL")</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="323">                                PageState.SetValue("DLError", "YES");</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="353">                                MsgBox.ShowMsg(GetErrorDisplayMessage(48001, "This record has been amended by another user since you started this transaction.Please re-query the data and start the transaction again."), "LORENZO", iSOFT.Web.Controls.MessageBoxType.Critical, iSOFT.Web.Controls.MessageBoxButton.OK);</text>
+			<text rtid="325">                                UIPageHelper.ShowResxMessage(MsgBox,45032,"This record has been amended by another user since you started this transaction.Please re-query the data and start the transaction again.", "LORENZO", iSOFT.Web.Controls.MessageBoxType.Critical, iSOFT.Web.Controls.MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="332">                else</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="333">                {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="334">                    CContextInformation oContext = null;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="335">                    string Code = string.Empty;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="336">                    FieldInfo objField;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="337">                    objField = response.GetType().GetField("Code");</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="338">                    if (objField != null)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="339">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="340">                        Code = objField.GetValue(response) as string;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="341">                        if (Code.Length > 0)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="342">                        {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="343">                            WizardContext.Add("GENERATEDCODE", Code);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="344">                        }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="345">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="346">                    objField = response.GetType().GetField("oContextInformation");</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="347">                    if (objField != null)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="348">                    {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="349">                        oContext = objField.GetValue(response) as CContextInformation;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="350">                        if (oContext != null &amp;&amp; oContext.Errors != null &amp;&amp; oContext.Errors.Count > 0)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="351">                        {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="354">                            if (oContext.Errors[0].ErrorID == 65011)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="355">                                UIPageHelper.ShowResxMessage(MsgBox, 45076, "No ID configuration definition exits for Clinical noting and correspondence - Document template code.", "LORENZO", MessageBoxType.Critical, MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="357">                            if (oContext.Errors[0].ErrorID == 65001)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="358">                                UIPageHelper.ShowResxMessage(MsgBox, 45076, "No ID configuration definition exits for Clinical noting and correspondence - Document template code.", "LORENZO", MessageBoxType.Critical, MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="360">                            if (oContext.Errors[0].ErrorID == 65002)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="361">                                UIPageHelper.ShowResxMessage(MsgBox, 45077, "No Active ID configuration exists Clinical noting and correspondence - Document template code.", "LORENZO", MessageBoxType.Critical, MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="363">                            if (oContext.Errors[0].ErrorID == 65003)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="364">                                UIPageHelper.ShowResxMessage(MsgBox, 45078, "Error during Auto-ID generation for Clinical noting and correspondence - Document template code.", "LORENZO", MessageBoxType.Critical, MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="366">                            if (oContext.Errors[0].ErrorID == 65004)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="367">                                UIPageHelper.ShowResxMessage(MsgBox, 45079, "The End number of this ID series has been reached and the system will not be able to generate an ID. Please contact your administrator.", "LORENZO", MessageBoxType.Critical, MessageBoxButton.OK);                                                     </text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="369">                            if (oContext.Errors[0].ErrorID == 900025)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="370">                            {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="371">                                WizardContext.Add("Refreshlist", "true");</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="372">                                UIPageHelper.ShowResxMessage(MsgBox, 45080, "This record has been amended by another user since you started this transaction.Please re-query the data and start the transaction again. Please note down any changes you have made, press OK and press Cancel in the care activity.", "LORENZO", iSOFT.Web.Controls.MessageBoxType.Critical, iSOFT.Web.Controls.MessageBoxButton.OK);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="374">                            }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="379">                            return false;</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="380">                        }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="381">                    }</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="383">                }</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="365">                CAMS.PublishProblemInfo(new CErrorEvent(e, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="389">                CAMS.PublishProblemInfo(new CErrorEvent(e, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="423">                        if (drvFilter["StatusCode"] != null &amp;&amp; drvFilter["StatusCode"].ToString() != "")</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="424">                            objFilter.TMSTSCODE = drvFilter["StatusCode"].ToString();</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="450">                CAMS.PublishProblemInfo(new CErrorEvent(ex, LIBOBJException.UNEXPECTED_ERROR));</text>
+			<text rtid="476">                CAMS.PublishProblemInfo(new CErrorEvent(ex, UNEXPECTED_ERROR));</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="471">        protected override void Localize()</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="472">        {</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="473">            PageHelper.ClientErrorIDs = "48001";</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="474">            base.ResourceLibrary = "scnassigndatafilter";</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="475">            base.Localize();</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="476">        }</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

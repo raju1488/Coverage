@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="7/26/2017 6:38:28 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:38:28 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\clinical statement management\bc\risk\csmanagerisk.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\clinical statement management\bc\risk\csmanagerisk.cs</filename2>
+		<linecomp status="different">
+			<text ltid="2661">                oHIIntray.ProfileTaskName = "Modify Alert";</text>
+			<text rtid="2661">                oHIIntray.ProfileTaskName = "Modify Review Alert";</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

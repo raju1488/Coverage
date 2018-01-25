@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:38:16 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:38:16 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\canned documents management\webclient\views\dtmexportxml.aspx.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\canned documents management\webclient\views\dtmexportxml.aspx.cs</filename2>
+		<linecomp status="different">
+			<text ltid="597">                GetCollection = base.WizardContext["OID"] + "*" + base.WizardContext["TEMPLATECODE"] + "*" + HttpUtility.UrlDecode(base.WizardContext["TEMPLATENAME"]);</text>
+			<text rtid="597">                GetCollection = base.WizardContext["OID"] + "*" + base.WizardContext["TEMPLATECODE"] + "*" +base.WizardContext["TEMPLATENAME"];</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="616">                            Bnd.Temp[i].StrTempName = Bnd.Temp[i].StrTempName.Replace("A`(R`", "*");</text>
+			<text rtid="616">                            Bnd.Temp[i].StrTempName = Bnd.Temp[i].StrTempName.Replace("~STR~", "*");</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

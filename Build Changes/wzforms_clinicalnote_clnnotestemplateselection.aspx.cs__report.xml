@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bcreport created="7/26/2017 6:39:38 PM">
+	<ltpath></ltpath>
+	<rtpath></rtpath>
+	<filecomparison created="7/26/2017 6:39:38 PM">
+		<filename1>D:\cms_668-2.12\lorenzo tranche2\clinical narrative services\clinical statement management\webclient\wzforms\clinicalnote\clnnotestemplateselection.aspx.cs</filename1>
+		<filename2>D:\cms_668-2.12sp\lorenzo tranche2\clinical narrative services\clinical statement management\webclient\wzforms\clinicalnote\clnnotestemplateselection.aspx.cs</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="220">			PageState.SetValue("DocIsAppendCAfromIP", WizardContext["IsAppendCAfromIP"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1193">                if (!string.IsNullOrEmpty(WizardContext["RFOID"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1194">                {</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1195">                    if (objReqMsgCreateNotes.oNoteDetailsBC.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails == null)</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1196">                        objReqMsgCreateNotes.oNoteDetailsBC.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails = new ClinicalNoteTreatmentFunDetails();</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1197">                    objReqMsgCreateNotes.oNoteDetailsBC.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingOID = Convert.ToInt64(WizardContext["RFOID"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1198">                    if (!string.IsNullOrEmpty(WizardContext["CNREFIDENTIFYINGTYPE"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1199">                        objReqMsgCreateNotes.oNoteDetailsBC.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.IdentifyingType = WizardContext["CNREFIDENTIFYINGTYPE"];</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1200">                    if (!string.IsNullOrEmpty(WizardContext["REFTRMTFNOID"]))</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1201">                        objReqMsgCreateNotes.oNoteDetailsBC.ClinicalNoteDocumentDetails.ClinicalNoteTreatmentFunctionDetails.SpecialtyTreatmentFnOID = Convert.ToInt64(WizardContext["REFTRMTFNOID"]);</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="1202">                }</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>
